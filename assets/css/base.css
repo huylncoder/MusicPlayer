@@ -1,0 +1,24 @@
+:root {
+    --primary-color-1: #ec1f55;
+    --primary-color: #20D760;
+    --text-color: #333;
+    --text-white: #fff;
+    --dark-color: #180161;
+    --dark-color-1: #03346E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f5f5f5;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}

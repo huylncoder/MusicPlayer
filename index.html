@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <img src="" id="bg-img" />
+    </div>
+    <div class="player">
+      <div class="dashboard">
+        <!-- Search Bar -->
+        <div class="search-box">
+          <i class="search-icon fas fa-search"></i>
+          <input type="text" class="search-input" id="search" autocomplete="off" placeholder="Tìm kiếm bài hát, ca sĩ,..." />
+          <div class="search-songs"></div>
+        </div>
+        <!-- header -->
+        <div class="header-wrap">
+          <div class="volume-btn">
+            <i class="volume-icon fas fa-volume-up"></i>
+            <div class="volume-wrap">
+              <input type="range" class="volume-range" value="50" min="0" max="100" />
+              <p class="volume-output">50</p>
+            </div>
+          </div>
+          <header>
+            <h4>Now playing</h4>
+            <h2>Name song</h2>
+          </header>
+          <div class="option">
+            <i class="option-icon fas fa-ellipsis-h"></i>
+            <div class="option-list">
+              <div class="option-item dark-mode-toggle">
+                <span>Dark mode</span>
+                <i class="theme-icon fas fa-moon"></i>
+              </div>
+              <div class="option-item favorite-toggle">
+                <span>Bài hát yêu thích</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cd -->
+        <div class="cd">
+          <img alt="" class="cd-thumb" style="background-image: url(./assets/img/cdthumb.jpg)" />
+        </div>
+        <!-- control -->
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="btn btn-prev">
+            <i class="fas fa-step-backward"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fas fa-pause icon-pause"></i>
+            <i class="fas fa-play icon-play"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fas fa-step-forward"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fas fa-random"></i>
+          </div>
+        </div>
+        <input id="progress" class="progress" type="range" value="0" step="0.1" min="0" max="100" />
+        <audio id="audio" src=""></audio>
+      </div>
+      <!-- playlist -->
+      <div class="playlist"></div>
+    </div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

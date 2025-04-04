@@ -2,6 +2,9 @@
   .search-box .search-input {
     width: 100%;
   }
+  .search-songs {
+    width: 100%;
+  }
   .search-box .search-icon {
     right: 15px;
   }
@@ -12,8 +15,14 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  header h2 {
+    font-size: 1.6rem;
+  }
   .playlist {
     margin-top: 456px;
     padding: 20px;
+  }
+  .song {
+    padding: 10px 14px;
   }
 }

@@ -299,6 +299,7 @@ body.dark .song {
 
 body.dark .search-songs .search-icon,
 body.dark .volume-btn .volume-icon,
+body.dark .volume-btn .volume-output,
 body.dark .option .option-icon,
 body.dark .song .btn-favorite {
   color: var(--text-color-dark);

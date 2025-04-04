@@ -185,7 +185,7 @@ const app = {
       cd.style.opacity = newCdWidth / cdWidth;
 
       if (newCdWidth > 0) {
-        dashboardTop = 20 + "px";
+        dashboardTop = 12 + "px";
       } else {
         dashboardTop = 0 + "px";
       }

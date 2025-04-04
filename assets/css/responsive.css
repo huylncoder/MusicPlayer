@@ -1,4 +1,10 @@
 @media (max-width: 739px) {
+  .search-box .search-input {
+    width: 100%;
+  }
+  .search-box .search-icon {
+    right: 15px;
+  }
   .dashboard {
     top: 12px;
     width: 94%;

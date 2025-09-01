@@ -1,12 +1,6 @@
 export default {
   songs: [
     {
-      name: "You are my crush",
-      singer: "Quân A.P",
-      path: "./assets/music/YouAreMyCrush.mp3",
-      image: "./assets/img/song17.jpg",
-    },
-    {
       name: "Đừng làm trái tim anh đau",
       singer: "Sơn Tùng MTP",
       path: "./assets/music/DungLamTraiTimAnhDau.mp3",
@@ -41,6 +35,12 @@ export default {
       singer: "Sơn Tùng MTP",
       path: "./assets/music/DancingInTheDark.mp3",
       image: "./assets/img/song18.jpg",
+    },
+    {
+      name: "You are my crush",
+      singer: "Quân A.P",
+      path: "./assets/music/YouAreMyCrush.mp3",
+      image: "./assets/img/song17.jpg",
     },
     {
       name: "Có đôi điều",
@@ -112,13 +112,13 @@ export default {
       name: "Tan ca",
       singer: "Đạt Ozy và PiaLinh",
       path: "./assets/music/TanCa.mp3",
-      image: "./assets/img/song25.jpeg",
+      image: "./assets/img/song25.jpg",
     },
     {
       name: "Say yes",
       singer: "OgeNus và PiaLinh",
       path: "./assets/music/SayYes.mp3",
-      image: "./assets/img/song2.jpg",
+      image: "./assets/img/song2.jpeg",
     },
     {
       name: "Anh đánh rơi người yêu này",

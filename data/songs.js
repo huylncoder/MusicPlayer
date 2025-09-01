@@ -1,6 +1,12 @@
 export default {
   songs: [
     {
+      name: "You are my crush",
+      singer: "Quân A.P",
+      path: "./assets/music/YouAreMyCrush.mp3",
+      image: "./assets/img/song17.jpg",
+    },
+    {
       name: "Đừng làm trái tim anh đau",
       singer: "Sơn Tùng MTP",
       path: "./assets/music/DungLamTraiTimAnhDau.mp3",
@@ -31,10 +37,40 @@ export default {
       image: "./assets/img/song14.jpg",
     },
     {
+      name: "Dancing in the dark",
+      singer: "Sơn Tùng MTP",
+      path: "./assets/music/DancingInTheDark.mp3",
+      image: "./assets/img/song18.jpg",
+    },
+    {
       name: "Có đôi điều",
       singer: "Shiki",
       path: "./assets/music/CoDoiDieu.mp3",
       image: "./assets/img/song10.jpg",
+    },
+    {
+      name: "Chỉ cần ngồi đây với em",
+      singer: "D.Kies",
+      path: "./assets/music/ChiCanNgoiDayVoiEm.mp3",
+      image: "./assets/img/song24.jpg",
+    },
+    {
+      name: "Tính hiệu từ trái tim",
+      singer: "Cassano",
+      path: "./assets/music/TinhHieuTuTraiTim.mp3",
+      image: "./assets/img/song27.jpg",
+    },
+    {
+      name: "Đưa em về nhà",
+      singer: "GREY D x CHILLIES",
+      path: "./assets/music/DuaEmVeNha.mp3",
+      image: "./assets/img/song15.jpg",
+    },
+    {
+      name: "Cháu xin lỗi chú",
+      singer: "LINH THỘN ft. GIA NGHI",
+      path: "./assets/music/ChauXinLoiChu.mp3",
+      image: "./assets/img/song28.jpg",
     },
     {
       name: "Từng ngày yêu em",
@@ -43,22 +79,76 @@ export default {
       image: "./assets/img/song9.jpg",
     },
     {
+      name: "Miên man",
+      singer: "Minh Huy",
+      path: "./assets/music/MienMan.mp3",
+      image: "./assets/img/song16.jpg",
+    },
+    {
+      name: "Ngàn năm ánh sáng",
+      singer: "Đặng Vĩnh Thịnh",
+      path: "./assets/music/NganNamAnhSang.mp3",
+      image: "./assets/img/song21.jpg",
+    },
+    {
+      name: "Vạn như muốn ta bên nhau",
+      singer: "RIO",
+      path: "./assets/music/VanVatNhuMuonTaBenNhau.mp3",
+      image: "./assets/img/song23.jpg",
+    },
+    {
+      name: "Em thích",
+      singer: "SEAN",
+      path: "./assets/music/EmThich.mp3",
+      image: "./assets/img/song26.jpg",
+    },
+    {
+      name: "Muốn được cùng em",
+      singer: "Andiez ft. AMEE",
+      path: "./assets/music/MuonDuocCungEm.mp3",
+      image: "./assets/img/song29.jpg",
+    },
+    {
+      name: "Tan ca",
+      singer: "Đạt Ozy và PiaLinh",
+      path: "./assets/music/TanCa.mp3",
+      image: "./assets/img/song25.jpeg",
+    },
+    {
       name: "Say yes",
       singer: "OgeNus và PiaLinh",
       path: "./assets/music/SayYes.mp3",
-      image: "./assets/img/song2.jpeg",
+      image: "./assets/img/song2.jpg",
+    },
+    {
+      name: "Anh đánh rơi người yêu này",
+      singer: "Andiez ft. AMEE",
+      path: "./assets/music/AnhDanhRoiNguoiYeuNay.mp3",
+      image: "./assets/img/song30.jpg",
+    },
+    {
+      name: "Lễ đường",
+      singer: "KAI ĐINH",
+      path: "./assets/music/LeDuong.mp3",
+      image: "./assets/img/song20.jpg",
+    },
+    {
+      name: "Một đời",
+      singer: "14 Casper & Bon Nghiêm (feat. buitruonglinh)",
+      path: "./assets/music/MotDoi.mp3",
+      image: "./assets/img/song19.jpg",
+    },
+    {
+      name: "Tan biến",
+      singer: "Hoàng Dũng x Quân A.P",
+      path: "./assets/music/TanBien.mp3",
+      image: "./assets/img/song22.jpg",
     },
     {
       name: "shhhhhhh",
       singer: "WEAN feat tlinh",
       path: "./assets/music/Shhhhhhh.mp3",
       image: "./assets/img/song8.jpg",
-    },
-    {
-      name: "The way I still love you",
-      singer: "Reynard Silva",
-      path: "./assets/music/TheWayIStillLoveYou.mp3",
-      image: "./assets/img/song6.jpg",
     },
     {
       name: "Yours",

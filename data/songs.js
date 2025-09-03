@@ -32,8 +32,8 @@ export default {
     },
     {
       name: "Dancing in the dark",
-      singer: "Sơn Tùng MTP",
-      path: "./assets/music/DancingInTheDark.mp3",
+      singer: "SOOBIN",
+      path: "./assets/music/DancingInTheDarK.mp3",
       image: "./assets/img/song18.jpg",
     },
     {
@@ -51,7 +51,7 @@ export default {
     {
       name: "Chỉ cần ngồi đây với em",
       singer: "D.Kies",
-      path: "./assets/music/ChiCanNgoiDayVoiEm.mp3",
+      path: "./assets/music/ChiCanDuocNgoiDayVoiEm.mp3",
       image: "./assets/img/song24.jpg",
     },
     {
